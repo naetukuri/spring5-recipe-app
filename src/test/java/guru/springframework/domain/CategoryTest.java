@@ -21,6 +21,9 @@ public class CategoryTest {
 
     @Test
     public void getDescription() {
+        String description="Mexican";
+        category.setDescription(description);
+        assertEquals(description,category.getDescription());
     }
 
     @Test
